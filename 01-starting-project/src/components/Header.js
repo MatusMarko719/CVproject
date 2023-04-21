@@ -9,9 +9,6 @@ const Header = (props) => {
     setClicked((clicked) => !clicked);
   };
 
-  const blurHandler = () => {
-    setClicked((clicked) => !clicked);
-  };
   return (
     <>
       <header className="bg-light">
@@ -42,7 +39,7 @@ const Header = (props) => {
               }
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav ms-auto me-2" >
+              <ul className="navbar-nav ms-auto me-2">
                 <li className="nav-item">
                   <a
                     className="nav-link"
@@ -53,12 +50,20 @@ const Header = (props) => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#skills" onClick={props.onScrollSkills}>
+                  <a
+                    className="nav-link"
+                    href="#skills"
+                    onClick={props.onScrollSkills}
+                  >
                     Zručnosti
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#workexp" onClick={props.onScrollWorkexp}>
+                  <a
+                    className="nav-link"
+                    href="#workexp"
+                    onClick={props.onScrollWorkexp}
+                  >
                     Pracovné skúsenosti
                   </a>
                 </li>
