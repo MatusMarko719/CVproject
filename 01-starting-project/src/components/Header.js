@@ -8,7 +8,6 @@ const Header = (props) => {
   const buttonClickHandler = () => {
     setClicked((clicked) => !clicked);
   };
-
   
   return (
     <>
