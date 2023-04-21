@@ -1,0 +1,32 @@
+
+.imageHolder{
+    background-color: beige;
+    height: fit-content;
+    
+}
+.foto{
+    text-align: center;
+    padding: 100px 0 50px 0;
+}
+.foto img{
+    
+    width: 350px ;
+    height: 350px;
+    object-fit: cover;
+    object-position: 50% 5%;
+    border-radius: 50%; 
+   }
+.button{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(241, 220, 25);
+    margin-left: calc(50% - 75px);
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 35px;
+    padding: 1%;
+    
+}
+.button a {
+    text-decoration: none;
+}

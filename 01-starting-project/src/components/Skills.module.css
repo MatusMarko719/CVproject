@@ -1,0 +1,102 @@
+h4 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.articel {
+  width: 50%;
+  margin: 0 auto;
+  
+  margin-bottom: 60px;
+}
+h5 {
+  margin-top: 60px;
+}
+
+#insideHtmlBar {
+  width: 70%;
+}
+
+#insideCssBar {
+  width: 65%;
+}
+#insideReactBar {
+  width: 50%;
+}
+#insideJSBar {
+  width: 45%;
+}
+
+.skill {
+  font-weight: 600;
+  padding: 10px 0 10px 0;
+}
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bars {
+  max-width: 50%;
+
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 1% 2%;
+  box-shadow: 2px 2px 15px black;
+  margin-bottom: 25px;
+}
+#openerCertificates {
+  font-weight: 600;
+  display: inline-block;
+  border: solid rgba(0, 0, 0, 0.459) 0.5px;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 2px 2px 15px black;
+  margin-left: 5%;
+  margin-top: 15px;
+}
+#openerCertificates:hover {
+  cursor: pointer;
+  
+}
+#certificatesContainer{
+    display: inline-block;
+  align-items: center;
+  justify-content: start;
+}
+.certificatesImages{
+    margin: 1%;
+    max-width: 25%;
+    min-width: 15%;
+    box-shadow: 2px 2px 15px black;
+}
+.courses{
+   margin-left: 10%;
+   font-weight: 600;
+   margin-top: 60px;
+   align-items: center;
+   justify-content: center;
+}
+#abs{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+#work{font-size: 1.5rem;
+    font-weight: 600;
+     text-align: center;
+    
+    }
+#plan{font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    }
+
+.courses ul li{
+    list-style: none;
+    font-size: 1.6rem;
+}
+.podarilo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
