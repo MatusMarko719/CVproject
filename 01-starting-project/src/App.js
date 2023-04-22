@@ -7,12 +7,14 @@ import PostHeader from "./components/PostHeader";
 import Skills from "./components/Skills";
 import WorkExp from "./components/WorkExp";
 import Education from "./components/Education";
+import Contacts from "./components/Contacts";
 
 const App = (props) => {
   const AnchorAbout = useRef(null);
   const AnchorSkills = useRef(null);
   const AnchorWorkexp = useRef(null);
   const AnchorEducation = useRef(null);
+  const AnchorContacts = useRef(null);
 
   const scrollToAbout = () => {
     AnchorAbout.current.scrollIntoView({ behavior: "smooth" });
@@ -27,6 +29,9 @@ const App = (props) => {
   const scrollToEducation = () => {
     AnchorEducation.current.scrollIntoView({ behavior: "smooth" });
   }
+  const scrollToContacts = () => {
+    AnchorContacts.current.scrollIntoView({ behavior: "smooth" });
+  }
 
   return (
     <React.Fragment>
@@ -36,9 +41,12 @@ const App = (props) => {
           onScrollSkills={scrollToSkills}
           onScrollWorkexp={scrollToWorkexp}
           onScrollEducation={scrollToEducation}
+          onScrollContacts={scrollToContacts}
         />
-      </div>
+      </div >
+      <div id={classes.sectionPostHeader}>
       <PostHeader />
+      </div>
       <div ref={AnchorAbout} id={classes.sectionAbout}>
         <About />
       </div>
@@ -52,6 +60,10 @@ const App = (props) => {
       <div ref={AnchorEducation} id={classes.sectionEducation}>
       <Education />
       </div>
+      <div ref={AnchorContacts} id={classes.sectionContacts}>
+      <Contacts/>
+      </div>
+      
     </React.Fragment>
   );
 };

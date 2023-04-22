@@ -76,12 +76,12 @@ h5 {
 }
 .courses{
   display: inline-block;
-  width: 46%;
+  width: fit-content;
   height: auto ;
  vertical-align: text-top;
    margin: 30px 2%;
    font-weight: 600;
- /*border: 1px solid black;*/
+ border: 1px solid black;
    font-size: 1.1rem;
    
 }
@@ -96,4 +96,10 @@ h5 {
   .bold{
     font-size: 1.5rem;
   }
+  .allCourses{
+    
+
+  }
+
+  
 

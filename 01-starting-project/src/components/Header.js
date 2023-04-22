@@ -77,7 +77,8 @@ const Header = (props) => {
                 </li>
                 
                 <li className="nav-item">
-                  <a className="nav-link" href="#contact">
+                  <a className="nav-link" href="#contact"
+                  onClick={props.onScrollContacts}>
                     Kontakt
                   </a>
                 </li>

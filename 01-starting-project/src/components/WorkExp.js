@@ -3,8 +3,8 @@ import classes from "./WorkExp.module.css";
 
 const WorkExp = () => {
   return (
-    <div>
-      
+    <div className={classes.workexp}>
+      <div className={classes.gradient}></div>
         <h4>Pracovné skúsenosti</h4>
         <div className={classes.leram}>
         <p className={classes.subhead}>3/2021-12/2022 LERAM pharmaceuticals</p>
