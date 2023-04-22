@@ -17,7 +17,7 @@ const Skills = () => {
         Tu ponúkam malý prehľad toho, čo som sa zatiaľ naučil... Je ťažké
         stanoviť, kde je tá hranica kedy človek môže povedať, že už niečo naozaj
         ovláda. A keďže platí, že čím viac viem, tým viac vidím čo všetko ešte
-        neviem, nižšie ukážem, že aspoň grafy robiť viem ;)
+        neviem, nižšie ukážem, že niečo predsa len robiť viem ;{")"}
       </p>
       <div className={classes.bars}>
         <div className={classes.skill}>
@@ -98,12 +98,22 @@ const Skills = () => {
         </div>
       </div>
 
-        
       <div className={classes.courses}>
-      <p className={classes.podarilo}>Podarilo sa mi Vyrobiť</p>
-      <p>Webová stránka pre Občianské združenie pracujúce s deťmi s autizmom</p>
-      <p>použité technológie: HTML, CSS, Jquery, Bootstrap</p>
-      <p>Link {">"}{">"} <a href="https://ozcharbel.sk/" target="blank">ozcharbel.sk</a></p>
+        <p className={classes.podarilo}>Podarilo sa mi Vyrobiť:</p>
+        <p>
+          Webová stránka pre Občianské združenie pracujúce s deťmi s autizmom
+        </p>
+        <p>použité technológie: HTML, CSS, Jquery, Bootstrap</p>
+
+        <p>
+          Link {">"}
+          {">"}{" "}
+          <a href="https://ozcharbel.sk/" target="blank">
+            <span className={classes.bold}>ozcharbel.sk</span>
+          </a>
+        </p>
+      </div>
+      <div className={classes.courses}>
         <p id={classes.abs}>Absolvované kurzy:</p>
         <ul>
           <li>
@@ -156,16 +166,34 @@ const Skills = () => {
         <p id={classes.work}>Kurzy na ktorých aktuálne pracujem:</p>
         <ul>
           <li>
-            <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/?kw=react&src=sac">Udemy - REACT The Complete Guide (incl Hooks, React Router, Redux)</a>
-            
+            <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/?kw=react&src=sac">
+              Udemy - REACT The Complete Guide (incl Hooks, React Router, Redux)
+            </a>
           </li>
         </ul>
       </div>
       <div className={classes.courses}>
         <p id={classes.plan}>Naplánované kurzy:</p>
         <ul>
-          <li><a href="https://skillmea.sk/online-kurzy/sql-databazy-mysql-sqlite">Skillmea - SQL databázy: MySQL a SQLite</a> </li>
-          <li><a href="https://skillmea.sk/online-kurzy/git-a-github">Skillmea - Git a GitHub základy</a> </li>
+          <li>
+            <a href="https://skillmea.sk/online-kurzy/sql-databazy-mysql-sqlite">
+              Skillmea - SQL databázy: MySQL a SQLite
+            </a>{" "}
+          </li>
+          <li>
+            <a href="https://skillmea.sk/online-kurzy/git-a-github">
+              Skillmea - Git a GitHub základy
+            </a>{" "}
+          </li>
+        </ul>
+      </div>
+
+      <div className={classes.courses}>
+        <p id={classes.plan}>Iné skúsesnoti zručnosti:</p>
+        <ul>
+          <li>Anglický jazyk (pokročilý – B2)</li>
+          <li>Vodičský preukaz: skupina B (aktívny vodič)</li>
+          <li>Dobrovoľnícka činnosť v neziskovej organizácii: Slovenský skauting - vedúci menšej skupiny ľudí</li>
         </ul>
       </div>
     </div>

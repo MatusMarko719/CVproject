@@ -1,13 +1,22 @@
-#navigation{
-    margin-bottom: 80px;
-    
-}
+
 #sectionAbout{
-    
+    padding-bottom: 20px;
     padding-top: 80px;
     
 }
 #sectionSkills{
     background-color: rgb(151, 151, 57);
     padding-top: 80px;
+    padding-bottom: 20px;
 }
+#sectionWorkexp{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+#sectionEducation{
+    padding-top: 80px;
+    background-color: rgb(146, 188, 224);
+    padding-bottom: 20px;
+}
+
+

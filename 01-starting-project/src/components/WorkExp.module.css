@@ -1,0 +1,24 @@
+.leram{
+    width: 48%;
+    box-shadow: 2px 2px 15px black;
+    border-radius: 15px;
+    padding-bottom: 1%;
+   margin: 0 auto;
+   margin-bottom: 60px;
+   background-color: rgba(219, 228, 240, 0.692);
+}
+.subhead{
+    font-size: 1.2rem;
+    
+    padding: 2% 4%;
+    border-radius: 15px;
+    margin-bottom: 0;
+}
+.position{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 4% 8%;
+    
+    background-color: rgba(233, 213, 38, 0.493);
+    margin-top: 0;
+}

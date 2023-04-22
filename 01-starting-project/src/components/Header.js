@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import "../UI/bootstrap.css";
 import "../UI/main.css";
+import "./Header.css"
 
 const Header = (props) => {
   const [clicked, setClicked] = useState(true);
@@ -19,7 +20,7 @@ const Header = (props) => {
         >
           <div className="container">
             <a className="link-dark navbar-brand site-title mb-0" href="#">
-              Matúš Marko
+              Matúš Marko - životopis
             </a>
             <button
               onClick={buttonClickHandler}
@@ -68,15 +69,13 @@ const Header = (props) => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#portfolio">
+                  <a className="nav-link" href="#education"
+                  onClick={props.onScrollEducation}>
+                    
                     Vzdelanie
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#experience">
-                    Záujmy
-                  </a>
-                </li>
+                
                 <li className="nav-item">
                   <a className="nav-link" href="#contact">
                     Kontakt
