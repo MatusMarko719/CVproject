@@ -42,7 +42,7 @@ h5 {
 }
 .bars {
   max-width: 50%;
-
+background-color: rgba(37, 185, 17, 0.692);
   margin: 0 auto;
   border-radius: 20px;
   padding: 1% 2%;
@@ -74,17 +74,7 @@ h5 {
     min-width: 15%;
     box-shadow: 2px 2px 15px black;
 }
-.courses{
-  display: inline-block;
-  width: fit-content;
-  height: auto ;
- vertical-align: text-top;
-   margin: 30px 2%;
-   font-weight: 600;
- border: 1px solid black;
-   font-size: 1.1rem;
-   
-}
+
 
 
 #work,#plan,#abs,.podarilo{font-size: 1.5rem;
@@ -97,9 +87,36 @@ h5 {
     font-size: 1.5rem;
   }
   .allCourses{
+    width: 90vw;
     
-
+    text-align: center;
+    margin: 0 auto;
   }
-
+  
+  .courses{
+    display: inline-block;
+    width: fit-content;
+    height: auto ;
+   vertical-align: text-top;
+   text-align: left;
+   justify-content:center;
+     margin: 30px 2%;
+     font-weight: 600;
+   
+     font-size: 1.1rem;
+     
+  }
+  .coursesLast{
+   
+    width: fit-content;
+    height: auto ;
+   vertical-align: text-top;
+   text-align: left;
+   justify-content: center;
+   margin: 30px 2%;
+     font-weight: 600;
+   
+     font-size: 1.1rem;
+  }
   
 

@@ -189,7 +189,7 @@ const Skills = () => {
           </ul>
         </div>
 
-        <div className={classes.courses}>
+        <div className={classes.coursesLast}>
           <p id={classes.plan}>Iné skúsesnoti zručnosti:</p>
           <ul>
             <li>Anglický jazyk (pokročilý – B2)</li>
