@@ -26,3 +26,9 @@
 .workexp{
     transition: all 0.25s ease-out;
 }
+
+@media (max-width: 900px) {
+    .leram{
+        width: 80%;
+    }
+}
