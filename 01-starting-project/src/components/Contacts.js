@@ -41,7 +41,7 @@ const Contacts = () => {
         <span className={classes.last}> Web:</span> <br></br>
         <span>
           
-          <a href="matusmarko.sk" target="blank">
+          <a href="http://matusmarko.sk/" target="blank">
             www.matusmarko.sk
           </a>
         </span>
