@@ -1,5 +1,9 @@
 .article h4 {
   text-align: center;
+  
+}
+.article{
+  margin-bottom: 70px;
 }
 #foto1 {
   width: 305px;
@@ -20,11 +24,11 @@
 }
 
 .text {
-  width: 70vw;
- 
+  width: 65vw;
+ padding-right: 2%;
   border-radius: 20px;
   padding: 1% 2%;
-  margin: 1% 10%;
+  margin: 1% 5%;
   margin-right: 15%;
 }
 .image {
