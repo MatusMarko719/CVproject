@@ -78,7 +78,7 @@ h5 {
 #plan,
 #abs,
 .podarilo {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
   /* text-align: center;
     margin-left: -10%;*/
@@ -102,20 +102,21 @@ h5 {
   text-align: left;
   justify-content: center;
   margin: 30px 2%;
-  font-weight: 600;
+  font-weight: 450;
 
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .coursesLast {
+  display: inline-block;
   width: fit-content;
   height: auto;
   vertical-align: text-top;
   text-align: left;
   justify-content: center;
   margin: 30px 2%;
-  font-weight: 600;
+  font-weight: 450;
 
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 @media (max-width: 900px) {

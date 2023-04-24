@@ -195,7 +195,7 @@ const Skills = () => {
             <li>Anglický jazyk (pokročilý – B2)</li>
             <li>Vodičský preukaz: skupina B (aktívny vodič)</li>
             <li>
-              Dobrovoľnícka činnosť v neziskovej organizácii: Slovenský skauting
+             Slovenský skauting
               - vedúci menšej skupiny ľudí
             </li>
           </ul>
