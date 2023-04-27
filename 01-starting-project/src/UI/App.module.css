@@ -1,28 +1,30 @@
-
-#sectionAbout{
-    padding-bottom: 20px;
-    padding-top: 80px;
-    
+#sectionAbout {
+  padding-bottom: 20px;
+  padding-top: 80px;
+  background: radial-gradient(#ffffff, #c9c9c9);
 }
-#sectionSkills{
-    background-color: rgba(37, 185, 17, 0.486);
-    padding-top: 80px;
-    padding-bottom: 20px;
-    
+#sectionSkills {
+  background: radial-gradient(#5df049, #4a6e3a);
+  padding-top: 80px;
+  padding-bottom: 20px;
+  color: #000000d5;
 }
-#sectionWorkexp{
-    padding-top: 80px;
-    padding-bottom: 20px;
-}
-#sectionEducation{
-    padding-top: 80px;
-    background-color: rgba(123, 182, 250, 0.432);
-    padding-bottom: 20px;
-    
-}
-#sectionContacts{
-    padding-top: 80px;
-    padding-bottom: 20px;
-    height: 100vh;
+#sectionWorkexp {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  margin: 0;
+  background: radial-gradient(#eb8787, #14101f);
 }
 
+#sectionEducation {
+  padding-top: 80px;
+  background: radial-gradient(#7bb6fa, #4c45b4);
+  
+  padding-bottom: 20px;
+}
+#sectionContacts {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  height: 100vh;
+  background: radial-gradient(#ffffff, #c9c9c9);
+}

@@ -52,15 +52,18 @@ h5 {
 #openerCertificates {
   font-weight: 600;
   display: inline-block;
-  border: solid rgba(0, 0, 0, 0.459) 0.5px;
+  
   border-radius: 15px;
   padding: 5px 10px 5px 10px;
   box-shadow: 2px 2px 15px black;
   margin-left: 5%;
   margin-top: 15px;
 }
-#openerCertificates:hover {
+#openerCertificates:hover,
+#openerCertificates:active {
   cursor: pointer;
+  background-color:  rgba(37, 185, 17, 0.692);
+  color: whitesmoke;
 }
 #certificatesContainer {
   display: inline-block;
@@ -104,7 +107,11 @@ h5 {
   margin: 30px 2%;
   font-weight: 450;
 
-  font-size: 1rem;
+  
+}
+
+.courses a:hover{
+color: whitesmoke;
 }
 .coursesLast {
   display: inline-block;
@@ -116,7 +123,6 @@ h5 {
   margin: 30px 2%;
   font-weight: 450;
 
-  font-size: 1rem;
 }
 
 @media (max-width: 900px) {
@@ -136,5 +142,8 @@ h5 {
   .courses {
     display: block;
        text-align: left;
+  }
+  .certificatesImages{
+    max-width: 45%;
   }
 }

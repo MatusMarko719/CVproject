@@ -1,3 +1,4 @@
+
 .leram{
     width: 48%;
     box-shadow: 2px 2px 15px black;
@@ -22,10 +23,10 @@
     background-color: rgba(233, 213, 38, 0.493);
     margin-top: 0;
 }
-
-.workexp{
-    transition: all 0.25s ease-out;
+#headline4{
+    color: #ffffff;
 }
+
 
 @media (max-width: 900px) {
     .leram{

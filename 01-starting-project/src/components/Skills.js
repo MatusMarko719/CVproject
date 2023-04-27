@@ -4,6 +4,7 @@ import "../UI/bootstrap.css";
 import webrebel from "../foto/webrebel.jpg";
 import zaklady from "../foto/zaklady.jpg";
 import Java from "../foto/JavaScript.jpg";
+import css from "../foto/CSS.jpg";
 
 const Skills = () => {
   const [clicked, setClicked] = useState(true);
@@ -160,6 +161,7 @@ const Skills = () => {
             <img src={webrebel} alt="" className={classes.certificatesImages} />
             <img src={zaklady} alt="" className={classes.certificatesImages} />
             <img src={Java} alt="" className={classes.certificatesImages} />
+            <img src={css} alt="" className={classes.certificatesImages}/>
           </div>
         )}
         <div className={classes.courses}>
