@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import "../UI/bootstrap.css";
 import "../UI/main.css";
-import "./Header.css"
+import "./Header.css";
 
 const Header = (props) => {
   const [clicked, setClicked] = useState(true);
@@ -9,7 +9,27 @@ const Header = (props) => {
   const buttonClickHandler = () => {
     setClicked((clicked) => !clicked);
   };
-  
+  const scrollAbout = () => {
+    props.onScrollAbout();
+    setClicked(true);
+  };
+  const scrollSkills = () => {
+    props.onScrollSkills();
+    setClicked(true);
+  };
+  const scrollWorkexp = () => {
+    props.onScrollWorkexp();
+    setClicked(true);
+  };
+  const scrollContacts = () => {
+    props.onScrollContacts();
+    setClicked(true);
+  };
+  const scrollEducation = () => {
+    props.onScrollEducation();
+    setClicked(true);
+  };
+
   return (
     <>
       <header className="bg-light">
@@ -42,20 +62,12 @@ const Header = (props) => {
             >
               <ul className="navbar-nav ms-auto me-2">
                 <li className="nav-item">
-                  <a
-                    className="nav-link"
-                    href="#about"
-                    onClick={props.onScrollAbout}
-                  >
+                  <a className="nav-link" href="#about" onClick={scrollAbout}>
                     O mne
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a
-                    className="nav-link"
-                    href="#skills"
-                    onClick={props.onScrollSkills}
-                  >
+                  <a className="nav-link" href="#skills" onClick={scrollSkills}>
                     Zručnosti
                   </a>
                 </li>
@@ -63,22 +75,27 @@ const Header = (props) => {
                   <a
                     className="nav-link"
                     href="#workexp"
-                    onClick={props.onScrollWorkexp}
+                    onClick={scrollWorkexp}
                   >
                     Pracovné skúsenosti
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#education"
-                  onClick={props.onScrollEducation}>
-                    
+                  <a
+                    className="nav-link"
+                    href="#education"
+                    onClick={scrollEducation}
+                  >
                     Vzdelanie
                   </a>
                 </li>
-                
+
                 <li className="nav-item">
-                  <a className="nav-link" href="#contact"
-                  onClick={props.onScrollContacts}>
+                  <a
+                    className="nav-link"
+                    href="#contact"
+                    onClick={scrollContacts}
+                  >
                     Kontakt
                   </a>
                 </li>
