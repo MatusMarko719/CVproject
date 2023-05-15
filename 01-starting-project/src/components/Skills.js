@@ -102,10 +102,8 @@ const Skills = () => {
         <div className={classes.courses}>
           <p className={classes.podarilo}>Podarilo sa mi Vyrobiť:</p>
           <p>
-            Webová stránka pre Občianské združenie pracujúce s deťmi s autizmom
+            Webová stránka pre Občianské združenie pracujúce s deťmi s autizmom:
           </p>
-          <p>použité technológie: HTML, CSS, Jquery, Bootstrap</p>
-
           <p>
             Link {">"}
             {">"}{" "}
@@ -113,6 +111,9 @@ const Skills = () => {
               <span className={classes.bold}>ozcharbel.sk</span>
             </a>
           </p>
+          <p>Použité technológie: HTML, CSS, Jquery, Bootstrap</p>
+
+          
         </div>
         <div className={classes.courses}>
           <p id={classes.abs}>Absolvované kurzy:</p>
@@ -173,11 +174,6 @@ const Skills = () => {
                 Redux)
               </a>
             </li>
-          </ul>
-        </div>
-        <div className={classes.courses}>
-          <p id={classes.plan}>Naplánované kurzy:</p>
-          <ul>
             <li>
               <a href="https://skillmea.sk/online-kurzy/sql-databazy-mysql-sqlite">
                 Skillmea - SQL databázy: MySQL a SQLite
@@ -190,8 +186,8 @@ const Skills = () => {
             </li>
           </ul>
         </div>
-
-        <div className={classes.coursesLast}>
+       
+        <div className={classes.courses}>
           <p id={classes.plan}>Iné skúsesnoti zručnosti:</p>
           <ul>
             <li>Anglický jazyk (pokročilý – B2)</li>
