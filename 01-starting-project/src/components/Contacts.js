@@ -13,7 +13,7 @@ const Contacts = () => {
         </li>
         <li>
           <span className={classes.first}>&ensp; Vek: &ensp;</span>
-          <span>&ensp; 30 &ensp;</span>
+          <span>&ensp; 31 &ensp;</span>
         </li>
         <li>
           <span className={classes.first}> Bydlisko:</span>

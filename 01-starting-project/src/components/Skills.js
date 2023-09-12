@@ -5,6 +5,7 @@ import webrebel from "../foto/webrebel.jpg";
 import zaklady from "../foto/zaklady.jpg";
 import Java from "../foto/JavaScript.jpg";
 import css from "../foto/CSS.jpg";
+import testovanie from "../foto/testovanie.jpg";
 
 const Skills = () => {
   const [clicked, setClicked] = useState(true);
@@ -112,8 +113,6 @@ const Skills = () => {
             </a>
           </p>
           <p>Použité technológie: HTML, CSS, Jquery, Bootstrap</p>
-
-          
         </div>
         <div className={classes.courses}>
           <p id={classes.abs}>Absolvované kurzy:</p>
@@ -124,6 +123,15 @@ const Skills = () => {
                 target="blank"
               >
                 Skillmea - Základy programovania a OOP
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://skillmea.sk/online-kurzy/manualne-testovanie"
+                target="blank"
+              >
+                {" "}
+                Skillmea - Manuálne testovanie
               </a>
             </li>
             <li>
@@ -152,6 +160,12 @@ const Skills = () => {
                 Skillmea - JavaScript a ES6
               </a>
             </li>
+            <li>
+              <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/?kw=react&src=sac">
+                Udemy - REACT The Complete Guide (incl Hooks, React Router,
+                Redux)
+              </a>
+            </li>
           </ul>
           <p onClick={certificatesHandler} id={classes.openerCertificates}>
             {clicked ? "pozrieť certifikáty >>" : "zavrieť certifikáty <<"}
@@ -162,18 +176,17 @@ const Skills = () => {
             <img src={webrebel} alt="" className={classes.certificatesImages} />
             <img src={zaklady} alt="" className={classes.certificatesImages} />
             <img src={Java} alt="" className={classes.certificatesImages} />
-            <img src={css} alt="" className={classes.certificatesImages}/>
+            <img
+              src={testovanie}
+              alt=""
+              className={classes.certificatesImages}
+            />
+            <img src={css} alt="" className={classes.certificatesImages} />
           </div>
         )}
         <div className={classes.courses}>
           <p id={classes.work}>Kurzy na ktorých aktuálne pracujem:</p>
           <ul>
-            <li>
-              <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/?kw=react&src=sac">
-                Udemy - REACT The Complete Guide (incl Hooks, React Router,
-                Redux)
-              </a>
-            </li>
             <li>
               <a href="https://skillmea.sk/online-kurzy/sql-databazy-mysql-sqlite">
                 Skillmea - SQL databázy: MySQL a SQLite
@@ -186,16 +199,13 @@ const Skills = () => {
             </li>
           </ul>
         </div>
-       
+
         <div className={classes.courses}>
           <p id={classes.plan}>Iné skúsesnoti zručnosti:</p>
           <ul>
             <li>Anglický jazyk (pokročilý – B2)</li>
             <li>Vodičský preukaz: skupina B (aktívny vodič)</li>
-            <li>
-             Slovenský skauting
-              - vedúci menšej skupiny ľudí
-            </li>
+            <li>Slovenský skauting - vedúci menšej skupiny ľudí</li>
           </ul>
         </div>
       </div>
