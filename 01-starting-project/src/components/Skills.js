@@ -98,6 +98,25 @@ const Skills = () => {
             ></div>
           </div>
         </div>
+        <div className={classes.skill}>
+          <label htmlFor="" className={classes.label}>
+            <span className={classes.head1}>SQL</span>{" "}
+            <span className={classes.head2}>50%</span>{" "}
+          </label>
+          <div id={classes.bar} className="progress">
+            <div
+              id={classes.insideReactBar}
+              className="progress-bar"
+              role="progressbar"
+              data-aos="zoom-in-right"
+              data-aos-delay="100"
+              data-aos-anchor=".skills-section"
+              aria-valuenow="65"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+        </div>
       </div>
       <div className={classes.allCourses}>
         <div className={classes.courses}>

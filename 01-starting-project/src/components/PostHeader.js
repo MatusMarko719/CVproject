@@ -31,11 +31,13 @@ const PostHeader = () => {
           <img src={linn} alt="" />
         </a>
         </div>
+        <a href={zivotopis} target="blank">
         <button className={classes.button}>
-          <a href={zivotopis} target="blank">
+         
             Zobraziť CV (.pdf)
-          </a>
+         
         </button>
+        </a>
       </div>
     </>
   );
