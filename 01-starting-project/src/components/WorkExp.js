@@ -15,6 +15,17 @@ const lightx9 = `${classes.light} ${classes.x9}`;
   return (
     <div className={classes.workexp}>
         <h4 id={classes.headline4}>Pracovné skúsenosti</h4>
+        <div className={classes.leram}>
+        <p className={classes.subhead}>1/2023 </p>
+        <p className={classes.position}>Freelance</p>
+        <ul>
+          <li>HTML, CSS3, JavaScript, ReactJS, MySQL</li>
+          <li>www.ozcharbel.sk -{">"} tvorba webu pre nezuskovú organizáciu </li>
+          <li>www.matusmarko.sk -{">"} osobný web</li>
+          <li>priebežne vzdelávanie sa v IT</li>
+          <li>práca na malých vlastných projektoch</li>
+        </ul>
+      </div>
       <div className={classes.leram}>
         <p className={classes.subhead}>3/2021-12/2022 LERAM pharmaceuticals</p>
         <p className={classes.position}>Key account manager</p>
