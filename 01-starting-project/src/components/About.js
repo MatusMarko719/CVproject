@@ -20,7 +20,7 @@ const About = () => {
           </p>
           <p>
             
-            Aj keď som momentálne bez pracovných záväzkov, čo mi dáva výhodu
+            Momentálne som bez pracovných záväzkov, čo mi dáva výhodu
             naplno sa venovať učeniu nových technológii, prirodzene narážam na
             limity samovzdelávania. Preto hľadám a som pripravený využiť každú
             príležitosť pre nováčikov, aby som mohol zlepšovať svoje zručnosti a
